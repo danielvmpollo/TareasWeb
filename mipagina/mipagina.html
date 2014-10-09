@@ -4,58 +4,35 @@
 		<meta charset="UTF-8">
 		<title>Mi pagina</title>
 		<style>
-		header{
+		header {
 			background-image:url("./img/negro.jpg");
 			background-size:100% 100%;
 			background-repeat:no-repeat; 
 			width:100%; 
-			height:40vh;
+			height:20vh;
+			color : yellow;
 		}
-		/*#texth {
-			display:blockx;
-			color: white;
-			margin-left: auto;
-			margin-right: auto;
-			font-size:10px;
+		#pagina {
+			background-image:url("./img/gris2.jpg");
+			background-size:100% 100%;
+			background-repeat: no-repeat; 
+			width:100%; 
+			height:100%;
 		}
-		.nav{
-			list-style: none;
-			display: inline;
-			margin: 0px;
-			padding-right: 20px;	
-		}
-		p[name="und"]{
-			color: yellow; !important
-		}
-		p[name*="d"]{
-			color: orange;
-		}
-		p:nth-child(even){
-			color : red;
-		}
-		ul>li{
-			color : red;
-		}
-		nav+p{
-			color : green !important;
-		}
-		nav ~ p{
-			color : blue;
-		}
-		a:link{
-			color : white;
-		}
-		p:hover{
+		#footer:hover {
 			font-size: 20px;
 		}
-		a:visited{
-			font-size: 5px;
+		#tabla1,
+		#tabla2 {
+			width: 500px;
+  			border: 5px solid #0ff;
+ 		 	border-collapse: separate;
+ 		 	text-align: center;
+ 		 	margin: auto;
 		}
-		a:active{
-			background-color: brown;
-		}*/
 		</style>
 	</head>
+	<div id="pagina">
 	<body>
 		<header>
 			<h1 align="center">Mi pagina</h1>
@@ -69,9 +46,8 @@
 		</nav>
 		<section>
 			<article>
-				<header>
 					<h2 align="center">Carros</h2>
-					<table align="center" border="5" cellspacing="10" cellpadding="10">
+					<table id="tabla1">
 						<tr>
 							<td>
 								Vocho
@@ -97,17 +73,15 @@
 							</td>
 						</tr>
 					</table>
-				</header>
 			</article>
 		</section>
 		<section>
 			<article>
-				<header>
 					<br>
 					<br>
 					<br>
 					<h2 align="center">Sistemas Operativos</h2>
-					<table align="center" border="5" cellspacing="10" cellpadding="10">
+					<table 	id="tabla2">
 						<tr>
 							<td>
 								Linux
@@ -141,7 +115,6 @@
 							</td>
 						</tr>
 					</table>
-				</header>
 			</article>
 		</section>
 		<aside>
@@ -149,10 +122,11 @@
 			</blockquote>
 			<blockquote>
 			</blockquote>
-			<blockquote>	
+			<blockquote>
 			</blockquote>
 		</aside>
-		<footer>
+		<footer id="footer">
+			<h3 align="center">Esta pagina tiene todos los derechos reservados. Autor Daniel Villegas</h3>
 		</footer>
-	</body>
+	</body></div>
 </html>
