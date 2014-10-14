@@ -1,0 +1,26 @@
+header {
+	background-image:url("./img/negro.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat; 
+	width:100%; 
+	height:20vh;
+	color : yellow;
+}
+#pagina {	
+	background-image:url("./img/gris2.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat; 
+	width:100%; 
+	height:100%;
+}
+#footer:hover {
+	font-size: 20px;
+}
+#tabla1,
+#tabla2 {
+	width: 500px;
+  	border: 5px solid #0ff;
+ 	border-collapse: separate;
+ 	text-align: center;
+ 	margin: auto;
+}
