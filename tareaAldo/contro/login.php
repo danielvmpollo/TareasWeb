@@ -1,6 +1,6 @@
 <?php 
 
-	require_once './../conex/conexiones.php';
+	require_once '../conex/conexiones.php';
 
 	$user = $_POST['user'];
 	$pass = $_POST['pass'];

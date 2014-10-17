@@ -1,5 +1,5 @@
 <?php 
-require_once './../conex/conexiones.php';
+require_once '../conex/conexiones.php';
 
 $usuarios_query = "SELECT * FROM users";
 $usuarios_object = $conexion->query($usuarios_query);

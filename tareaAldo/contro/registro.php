@@ -1,5 +1,5 @@
 <?php 
-	require_once './../conex/conexiones.php';
+	require_once '../conex/conexiones.php';
 
 	$registro_query = "INSERT INTO  users(user,pass,mail) VALUES(
 		'".$_POST['user']."',
